@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
+body{
+	padding: 0;
+	margin: 0;
+	background: url(background_exploded.png) #fff repeat;
+}
+canvas{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow:3px 2px 15px 2px #666;
+	border: 2px dashed #fff;
+}
+
+button{
+	margin: auto;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow:3px 2px 15px 2px #666;
+	border: 2px dashed #fff;
+	z-index: 1;
+}
+
+.board, .ep{
+	position: absolute;
+	width: 1008px;
+	height:604px;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow:3px 2px 15px 2px #666;
+	border: 2px dashed #fff;
+}
+
+/* Assuming .endvid and .helpvid are buttons */
+.endvid
+{
+	position: absolute;
+  font-size: 20px; 
+  margin: 10px;/* Adjust font size */
+}
+
+.helpvid {
+	position: relative;
+  font-size: 20px; 
+  margin-left: 92%;/* Adjust font size */
+}
+/*
+.helpvid {
+  /* Additional styles specific to help button */
+  /*position: absolute;
+  margin-top: 70px;
+  margin-left: 500px;
+   /* Remove margin to prevent extra space */
+/*}*/
+/*
+.astrid{
+	position: absolute;
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	transition: all 5s ease-in-out;
+}
+*/
+
